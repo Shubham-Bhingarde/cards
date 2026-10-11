@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Platform Material theme (no Material-Components dependency) keeps the APK
+      small. Actual colors are supplied by Compose (CardsTheme); this XML theme
+      only styles the window before Compose draws its first frame.
+    -->
+    <style name="Theme.Cards" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+    </style>
+</resources>
